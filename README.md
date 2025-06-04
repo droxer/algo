@@ -12,11 +12,11 @@ This repository contains implementations of various algorithms in Go.
 - [Hash Table](hashtable/hashtable.go)
 - [Graph](graph/graph.go)
 
-
 ## Search
 - [Binary Search](binarysearch/search.go)
 
 ## Sort
+- [Bubble Sort](bubble_sort/sort.go)
 - [Merge Sort](mergesort/sort.go)
 - [Quick Sort](quicksort/sort.go)
 
