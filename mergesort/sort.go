@@ -1,5 +1,18 @@
 package mergesort
 
+// MergeSort is a divide-and-conquer algorithm that recursively breaks down a problem into two or more sub-problems
+// until they become simple enough to solve directly. The solutions to the sub-problems are then combined to give
+// a solution to the original problem.
+//
+// Time Complexity: O(n log n)
+// Space Complexity: O(n)
+//
+// The algorithm works as follows:
+// 1. Divide the unsorted list into n sublists, each containing one element
+// 2. Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining
+// 3. This will be the sorted list
+
+
 func Sort(values []int) {
 	sort(values, 0, len(values)-1)
 }
