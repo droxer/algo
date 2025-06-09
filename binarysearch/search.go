@@ -10,7 +10,6 @@ func search(values []int, target, start, end int) int {
 	}
 
 	middle := (start + end) / 2
-	// fmt.Printf("target: %d, start: %d, middle: %d, end: %d\n", target, start, middle, end)
 	value := values[middle]
 
 	if value > target {
