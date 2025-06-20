@@ -20,11 +20,11 @@ This repository contains implementations of various algorithms in Go.
 - [Merge Sort](mergesort/sort.go)
 - [Quick Sort](quicksort/sort.go)
 
-## Cache
-- [LRU Cache](lru/lru.go)
+## Backtracking
+- [Backtracking](backtracking/backtracking.go)
 
-## Consistent Hashing
-- [Consistent Hashing](consistent_hashing/consistent_hashing.go)
+## Greedy
+- [Greedy](greedy/greedy.go)
 
-## Bloom Filter
-- [Bloom Filter](bloomfilter/bloomfilter.go)
+## DP
+- [DP](dp/dp.go)
