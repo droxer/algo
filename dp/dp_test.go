@@ -24,3 +24,19 @@ func TestClimbStairs(t *testing.T) {
 		}
 	}
 }
+
+func TestBackbag(t *testing.T) {
+	tests := []struct {
+		weights []int
+		values []int
+		W int
+		want int
+	}{
+		{[]int{1, 2, 3}, []int{6, 10, 12}, 5, 22},
+	}
+	for _, test := range tests {
+		if got := backbag(test.weights, test.values, test.W); got != test.want {
+			t.Errorf("backbag(%v, %v, %d) = %d, want %d", test.weights, test.values, test.W, got, test.want)
+		}
+	}
+}

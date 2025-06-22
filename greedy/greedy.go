@@ -1,13 +1,12 @@
 package greedy
 
 func canCompleteCircuit(gas []int, cost []int) int {
-	n := len(gas)
 	totalTank := 0
 	currTank := 0
 	startIndex := 0
 
-	for i := 0; i < n; i++ {
-		diff := gas[i] - cost[i]
+	for i, g := range gas {
+		diff := g - cost[i]
 		totalTank += diff
 		currTank += diff
 
