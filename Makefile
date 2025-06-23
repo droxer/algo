@@ -14,6 +14,6 @@ cover:
 	go test ./... --cover
 
 benchmark:
-	go test ./... -bench .
+	go test ./... -bench . -benchmem
 
 .PHONY: deps test cover fmt benchmark
