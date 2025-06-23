@@ -11,6 +11,7 @@ This repository contains implementations of various algorithms in Go.
 - [Linked List](linkedlist/linkedlist.go)
 - [Hash Table](hashtable/hashtable.go)
 - [Graph](graph/graph.go)
+- [Min Heap](miniheap/miniheap.go)
 
 ## Search
 - [Binary Search](binarysearch/search.go)
@@ -25,6 +26,9 @@ This repository contains implementations of various algorithms in Go.
 
 ## Greedy
 - [Greedy](greedy/greedy.go)
+
+## Bloom Filter
+- [Bloom Filter](bloomfilter/bloomfilter.go)
 
 ## DP
 - [DP](dp/dp.go)
