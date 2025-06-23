@@ -1,6 +1,6 @@
 package greedy
 
-func canCompleteCircuit(gas []int, cost []int) int {
+func CanCompleteCircuit(gas []int, cost []int) int {
 	totalTank := 0
 	currTank := 0
 	startIndex := 0

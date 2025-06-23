@@ -2,7 +2,7 @@ package backtracking
 
 import "sort"
 
-func subsets(nums []int) [][]int {
+func Subsets(nums []int) [][]int {
 	var res [][]int
 	var path []int
 
@@ -37,7 +37,7 @@ func subsets(nums []int) [][]int {
 	return res
 }
 
-func permute(nums []int) [][]int {
+func Permute(nums []int) [][]int {
 	var res [][]int
 	var path []int
 	used := make([]bool, len(nums))

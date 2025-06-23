@@ -12,7 +12,7 @@ func TestCanCompleteCircuit(t *testing.T) {
 		{[]int{2, 3, 4}, []int{3, 4, 3}, -1},
 	}
 	for _, test := range tests {
-		if got := canCompleteCircuit(test.gas, test.cost); got != test.want {
+		if got := CanCompleteCircuit(test.gas, test.cost); got != test.want {
 			t.Errorf("canCompleteCircuit(%v, %v) = %d, want %d", test.gas, test.cost, got, test.want)
 		}
 	}

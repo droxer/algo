@@ -66,12 +66,12 @@ func TestHashTableResize(t *testing.T) {
 	ht := hashtable.New(10)
 
 	// Fill the table to trigger resize
-	for i := 0; i < 100; i++ {
+	for i := range make([]int, 100) {
 		ht.Put(string(rune(i)), i)
 	}
 
 	// Verify all values are still accessible after resize
-	for i := 0; i < 100; i++ {
+	for i := range make([]int, 100) {
 		if val, exists := ht.Get(string(rune(i))); !exists || val != i {
 			t.Errorf("Expected %d for key %c, got %v", i, rune(i), val)
 		}
