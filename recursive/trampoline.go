@@ -1,4 +1,4 @@
-package trampoline
+package recursive
 
 type Trampoline interface {
 	Run() int
