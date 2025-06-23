@@ -7,7 +7,7 @@ func max(a, b int) int {
 	return b
 }
 
-func climbStairs(n int) int {
+func ClimbStairs(n int) int {
 	if n == 0 {
 		return 1
 	}
@@ -26,7 +26,7 @@ func climbStairs(n int) int {
 	return dp[n]
 }
 
-func backbag(weights []int, values []int, W int) int {
+func Knapsack(weights []int, values []int, W int) int {
 	n := len(weights)
 	dp := make([][]int, n+1)
 	for i := range dp {
