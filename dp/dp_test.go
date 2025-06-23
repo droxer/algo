@@ -19,7 +19,7 @@ func TestClimbStairs(t *testing.T) {
 		{10, 274},
 	}
 	for _, test := range tests {
-		if got := climbStairs(test.n); got != test.want {
+		if got := ClimbStairs(test.n); got != test.want {
 			t.Errorf("climbStairs(%d) = %d, want %d", test.n, got, test.want)
 		}
 	}
